@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
 
 *{
     box-sizing: border-box;
@@ -12,7 +12,7 @@ body {
     flex-direction: column;
 }
 
-.container {
+.card {
     font-size: 18px;
     font-family: 'Outfit', sans-serif;
     margin-top: 100px;
@@ -27,17 +27,15 @@ body {
     border-radius: 15px;
 }
 
-.white {
+.white-text {
     color: hsl(0, 0%, 100%);
 }
 
-.cyan {
-    font-weight: 600;
+.cyan-text {
    color: hsl(178, 100%, 50%); 
 }
 
-.colored-blue {
-    font-weight: 600;
+.blue-text {
     color: hsl(215, 51%, 70%);
 }
 
@@ -59,7 +57,7 @@ hr {
     margin-bottom: 5px;
 }
 
-.avatar {
+.creator-picture {
     width: 12%;
     border: 1px solid white;
     border-radius: 50%;
@@ -73,14 +71,14 @@ hr {
 }
 
 .attribution { font-size: 12px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 51%, 53%); }
 
-@media screen and (min-width:375px) and (max-width:425px) {
+@media screen and (min-width:320px) and (max-width:425px) {
     .main-img {
         width: 100%;
     }
 
-    .container {
+    .card {
         font-size: 18px;
         font-weight: 400;
         font-family: 'Outfit', sans-serif;
